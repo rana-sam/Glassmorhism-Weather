@@ -11,7 +11,7 @@ body{
 }
 .container{
     color: cornsilk;
-    background-color: rgba(255, 255, 255, 0.144);
+    background-color: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(20px);
     align-items: center;
     text-align: center;
@@ -56,6 +56,88 @@ body{
 
 
 
-@media screen  and (max-width:411px){
+@media screen  and (max-width:376px){
+   .body{
+       /* background-size: fit screen; */
+        height: 100%;
+        width: 100%;
+   }
+   .container{
+       width: 90%;
+       align-items: center;
+       text-align: center;
+       margin-left: 18px;
+       margin-top: 100px;
+       margin-bottom: 160px;
+   }
    
+}
+@media screen  and (min-width:376px) and (max-width:415px){
+   .body{
+        height: 100%;
+        width: 100%;
+        background-image: no-repeat center center fixed;
+   }
+   .container{
+       width: 90%;
+       align-items: center;
+       text-align: center;
+       margin-left: 18px;
+       margin-top: 150px;
+       margin-bottom: 270px;
+   }
+   
+}
+@media screen  and (min-width:415px) and (max-width:769px){
+  
+   .container{
+       height: 700px;
+       width: 70%;
+       align-items: center;
+       text-align:center;
+       justify-content: center;
+       margin-left: 120px;
+       margin-right: 10px;
+       margin-top: 200px;
+       margin-bottom: 220px;
+       font-size: 30px;
+    }
+    .main{
+       padding-top: 80px;
+   }
+   img{
+    height: 70px;
+    width: 70px;
+}
+   .result{
+       margin-top: 80px;
+       margin-left: 120px;
+   }
+   
+}
+@media screen  and (min-width:769px) and (max-width:1024px){
+  
+   .container{
+       height: 800px;
+       width: 70%;
+       align-items: center;
+       text-align:center;
+       justify-content: center;
+       margin-left: 150px;
+       margin-right: 10px;
+       margin-top: 300px;
+       margin-bottom: 260px;
+       font-size: 35px;
+    }
+    .main{
+       padding-top: 100px;
+   }
+   .result{
+       margin-top: 80px;
+       margin-left: 200px;
+   }
+   img{
+       height: 100px;
+       width: 100px;
+   }
 }
